@@ -25,12 +25,12 @@ namespace CavesofBowden
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.SetCursorPosition(leftOffSet, topOffSet);
             Console.WriteLine();
-            Console.Write("================================================================================");
+            Console.Write("=========================================================================================================\n");
             Console.ForegroundColor = ConsoleColor.Magenta; Console.Write("                         F"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("orward | ");
             Console.ForegroundColor = ConsoleColor.Magenta; Console.Write("L"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("eft |");
             Console.ForegroundColor = ConsoleColor.Magenta; Console.Write(" R"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("ight | ");
-            Console.ForegroundColor = ConsoleColor.Magenta; Console.Write(" B"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("ack |                       ");
-            Console.WriteLine("================================================================================");
+            Console.ForegroundColor = ConsoleColor.Magenta; Console.Write(" B"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("ack |                                                \n");
+            Console.WriteLine("=========================================================================================================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             if (item[3] == true)

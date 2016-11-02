@@ -16,6 +16,8 @@ namespace CavesofBowden
         }
         static void Title() //title screen
         {
+
+            
             Console.CursorVisible = false;
             int leftOffSet = (Console.WindowWidth / 2) - 19;
             int topOffSet = (Console.WindowHeight / 2) - 2;
@@ -47,6 +49,9 @@ namespace CavesofBowden
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
             Intro();
+
+
+            
         }
         static void Intro() //varables and instructions
         {
@@ -102,6 +107,8 @@ namespace CavesofBowden
             {
                 
             };
+
+
 
             int leftOffSet = (Console.WindowWidth / 2) - 8;
             int leftOffSet1 = (Console.WindowWidth / 2) - 12;

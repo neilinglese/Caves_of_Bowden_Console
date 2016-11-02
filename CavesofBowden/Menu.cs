@@ -25,7 +25,7 @@ namespace CavesofBowden
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.SetCursorPosition(leftOffSet, topOffSet);
             Console.WriteLine();
-            Console.Write("================================================================================");
+            Console.Write("=========================================================================================================\n");
             Console.ForegroundColor = ConsoleColor.Magenta; Console.Write("             U"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("se| ");
             Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("look"); Console.ForegroundColor = ConsoleColor.Magenta; Console.Write(" A"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("round| ");
             Console.ForegroundColor = ConsoleColor.Magenta; Console.Write("T"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("alk| ");
@@ -35,8 +35,8 @@ namespace CavesofBowden
             Console.Write("");
             Console.Write("");
             Console.Write("");
-            Console.ForegroundColor = ConsoleColor.Magenta; Console.Write("S"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("tats|                 ");
-            Console.WriteLine("================================================================================");
+            Console.ForegroundColor = ConsoleColor.Magenta; Console.Write("S"); Console.ForegroundColor = ConsoleColor.Yellow; Console.Write("tats|                                          \n");
+            Console.WriteLine("=========================================================================================================");
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             if (item[3] == true)
